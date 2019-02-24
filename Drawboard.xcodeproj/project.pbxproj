@@ -15,6 +15,8 @@
 		0DB7E9A72222560B000CED28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E9A62222560B000CED28 /* main.m */; };
 		0DB7E9B12222560B000CED28 /* DrawboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E9B02222560B000CED28 /* DrawboardTests.m */; };
 		0DB7E9BC2222560C000CED28 /* DrawboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E9BB2222560C000CED28 /* DrawboardUITests.m */; };
+		0DB7E9CB22225BEF000CED28 /* SCDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E9CA22225BEF000CED28 /* SCDrawView.m */; };
+		0DB7E9CE22226ADE000CED28 /* SCBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB7E9CD22226ADE000CED28 /* SCBezierPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		0DB7E9B72222560B000CED28 /* DrawboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB7E9BB2222560C000CED28 /* DrawboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawboardUITests.m; sourceTree = "<group>"; };
 		0DB7E9BD2222560C000CED28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DB7E9C922225BEF000CED28 /* SCDrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCDrawView.h; sourceTree = "<group>"; };
+		0DB7E9CA22225BEF000CED28 /* SCDrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCDrawView.m; sourceTree = "<group>"; };
+		0DB7E9CC22226ADE000CED28 /* SCBezierPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCBezierPath.h; sourceTree = "<group>"; };
+		0DB7E9CD22226ADE000CED28 /* SCBezierPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCBezierPath.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				0DB7E9A22222560B000CED28 /* LaunchScreen.storyboard */,
 				0DB7E9A52222560B000CED28 /* Info.plist */,
 				0DB7E9A62222560B000CED28 /* main.m */,
+				0DB7E9C922225BEF000CED28 /* SCDrawView.h */,
+				0DB7E9CA22225BEF000CED28 /* SCDrawView.m */,
+				0DB7E9CC22226ADE000CED28 /* SCBezierPath.h */,
+				0DB7E9CD22226ADE000CED28 /* SCBezierPath.m */,
 			);
 			path = Drawboard;
 			sourceTree = "<group>";
@@ -194,6 +204,7 @@
 		0DB7E98C2222560A000CED28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SC;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Stephen Cao";
 				TargetAttributes = {
@@ -264,6 +275,8 @@
 			files = (
 				0DB7E99C2222560A000CED28 /* ViewController.m in Sources */,
 				0DB7E9A72222560B000CED28 /* main.m in Sources */,
+				0DB7E9CB22225BEF000CED28 /* SCDrawView.m in Sources */,
+				0DB7E9CE22226ADE000CED28 /* SCBezierPath.m in Sources */,
 				0DB7E9992222560A000CED28 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
